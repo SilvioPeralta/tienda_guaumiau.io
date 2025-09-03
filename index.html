@@ -4,11 +4,16 @@
     </h1>
 </head>
 <body>
-    <br><br>
+    <form id="Form" action="/submit" method="POST">
+        <label for="usuario">ingrese usuario:</label>
+        <input type="text" id="usuario" name="usuario" required>
+        <br><br>
         <label for="email">Correo electrónico:</label>
         <input type="email" id="email" name="email" required>
-    <br><br>
+        <br><br>
         <label for="contraseña">contraseña:</label>
         <input type="contraseña" id="contraseña" name="contraseña" required>
-    <br><br>
+        <br><br>
+        <button type="submit">Enviar</button>
+    </form>
 </body>
